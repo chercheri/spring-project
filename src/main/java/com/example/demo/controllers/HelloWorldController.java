@@ -15,4 +15,31 @@ public class HelloWorldController {
 		modelMap.put("age", age);
 		return "pages/home";
 	}
+
+
+	/*
+	*TODO CREATE CONTROLLLER THAT CALLS A SERVICE
+	*CONTROLLER TAKES 2 INT PARAMETERS
+	* WITH GET
+	*service calcul SOMME des 2 parametres
+	 * */
+
+	/*
+	 *TODO CREATE CONTROLLLER THAT CALLS A SERVICE
+	 *CONTROLLER TAKES 2 INT PARAMETERS
+	 * AND STRING PARAMETER : Arithmetique operator  exmple : "+ , - , * , / "
+	 * WITH POST
+	 *service calcul PARAMETRE1  OPERATOR  PARAMETRE 2
+	 * */
+
+
+
+	/*
+	 *TODO CREATE CONTROLLLER THAT CALLS A SERVICE
+	 *CONTROLLER  TAKES STRING PARAMETER
+	 * WITH GET
+	 * PARSING THE STRING WILL GET INT THEN OPERATOR THEN INT BEWARE OF SPACES
+	 *service calcul PARAMETRE1  OPERATOR  PARAMETRE 2
+	 * */
+
 }
